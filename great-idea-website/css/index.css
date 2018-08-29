@@ -74,7 +74,7 @@ nav {
 	position: relative;
 }
 .nav-menu {
-	width: 60%;
+	/* width: 60%; */
 	padding-top: 20px;
 	display: inline-block;
 }
@@ -101,6 +101,8 @@ header h1 {
 }
 .header-left p {
 	width: 130px;
+	padding: 10px 0;
+	margin: 0 auto;
 	border: 2px black solid;
 }
 .header-right {
@@ -113,20 +115,45 @@ header h1 {
 	height: auto;
 }
 section {
+	width: 85%;
 	margin: 0 auto;
 	text-align: center;
 }
+.content {
+	padding: 15px 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+section p {
+	text-align: left;
+	padding: 10px 0;
+}
+section h3 {
+	text-align: left;
+}
 .double-column {
-	width: 400px;
-	padding: 5px 10px;
-	margin: 10px;
+	width: 436px;
+	padding: 5px 0;
+	margin: 10px 0;
 	display: inline-block;
 }
 .middle-img {
-	display: block;
+	/* margin: 0 auto;
+	display: block; */
 }
 .three-column {
-	width: 25%;
+	width: 289px;
 	display: inline-block;
-	margin: 10px;
+	margin: 10px 0;
+}
+.contact {
+	margin: 15px auto;
+}
+.contact address p {
+	padding: 0;
+	margin: 0;
+}
+.contact p {
+	padding: 0;
+	margin: 15px 0;
 }
