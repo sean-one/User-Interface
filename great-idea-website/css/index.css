@@ -132,22 +132,24 @@ section h3 {
 	text-align: left;
 }
 .double-column {
-	width: 436px;
+	width: 465px;
 	padding: 5px 0;
 	margin: 10px 0;
 	display: inline-block;
 }
 .middle-img {
-	/* margin: 0 auto;
-	display: block; */
+	margin: 30px auto;
+	display: block;
 }
 .three-column {
-	width: 289px;
+	width: 309px;
 	display: inline-block;
 	margin: 10px 0;
 }
 .contact {
-	margin: 15px auto;
+	width: 85%;
+	padding-top: 20px;
+	margin: 0 auto;
 }
 .contact address p {
 	padding: 0;
@@ -156,4 +158,8 @@ section h3 {
 .contact p {
 	padding: 0;
 	margin: 15px 0;
+}
+footer {
+	text-align: center;
+	padding: 15px 0 55px;
 }
